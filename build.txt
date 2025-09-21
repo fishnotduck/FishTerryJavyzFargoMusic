@@ -1,5 +1,5 @@
 displayName = Terry's Fargo Music Mod
 author = Javyz ft. Terry
-version = 1.0.1.10
+version = 1.0.1.11
 side = Client
 weakReferences  = FargowiltasSouls@1.7

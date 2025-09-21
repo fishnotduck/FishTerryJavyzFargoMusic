@@ -84,6 +84,9 @@ Abomination: Project Wingman ~ Showdown
 Mutant: Kirby's Return to Dream Land Deluxe ~ Supreme Ruler's Coronation - OVERLORD
 Mutant (alt): Zenless Zone Zero ~ Battle Trials (Glory)
 
+Update V1.0.1.11
+-Added boss music toggles
+
 Update V1.0.1.9
 -Adjusted when Mutant's alt theme plays
 -Added Immersive Mode
