@@ -847,6 +847,8 @@ namespace TerryMusicMod
         public override string MusicName => "HoloCureSuspect";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideTrojanSquirrelTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("TrojanSquirrel");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -866,6 +868,8 @@ namespace TerryMusicMod
         public override string MusicName => "rePrologue";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideKingSlimeTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.KingSlime);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -885,6 +889,8 @@ namespace TerryMusicMod
         public override string MusicName => "XNautFortress";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideEyeOfCthulhuTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.EyeofCthulhu);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -904,6 +910,8 @@ namespace TerryMusicMod
         public override string MusicName => "ShiftingSandLand";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideCursedCoffinTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("CursedCoffin");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -923,6 +931,8 @@ namespace TerryMusicMod
         public override string MusicName => "LastBattleBallosMix";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideEaterOfWorldsTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.EaterofWorldsHead);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -942,6 +952,8 @@ namespace TerryMusicMod
         public override string MusicName => "MotherBrain";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideBrainOfCthulhuTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.BrainofCthulhu);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -961,6 +973,8 @@ namespace TerryMusicMod
         public override string MusicName => "RegnumCaelorumEtGehennaVerumCurNonAudimus";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideQueenBeeTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.QueenBee);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -980,6 +994,8 @@ namespace TerryMusicMod
         public override string MusicName => "BadToTheBone";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideSkeletronTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.SkeletronHead);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -999,6 +1015,8 @@ namespace TerryMusicMod
         public override string MusicName => "NoHesitation";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideDeerclopsTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.Deerclops);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1018,6 +1036,8 @@ namespace TerryMusicMod
         public override string MusicName => "UsagiFlap";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideDevianttTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("DeviBoss");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1037,6 +1057,8 @@ namespace TerryMusicMod
         public override string MusicName => "DemetoriNecrofantasia";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideWallOfFleshTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.WallofFlesh);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1056,6 +1078,8 @@ namespace TerryMusicMod
         public override string MusicName => "BloodStainedFaith";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideDreadnautilusTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.BloodNautilus);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1075,6 +1099,8 @@ namespace TerryMusicMod
         public override string MusicName => "DededeDrumDashDeluxeCROWNED";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideQueenSlimeTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.QueenSlimeBoss);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1094,6 +1120,8 @@ namespace TerryMusicMod
         public override string MusicName => "BREISXVsZeroDecisiveBattle2";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideBanishedBaronTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("BanishedBaron");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1113,6 +1141,8 @@ namespace TerryMusicMod
         public override string MusicName => "PACHAD";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideSkeletronPrimeTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.SkeletronPrime);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1132,6 +1162,8 @@ namespace TerryMusicMod
         public override string MusicName => "SoundAveStormRider";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideTwinsTheme)
+                return false;
             NPC reti = MusicUtils.FindClosestBoss(NPCID.Retinazer);
             NPC spaz = MusicUtils.FindClosestBoss(NPCID.Spazmatism);
             if (reti != null || spaz != null)
@@ -1148,6 +1180,8 @@ namespace TerryMusicMod
         public override string MusicName => "DiverseSystemNightmareParadiseAbridged";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideDestroyerTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.TheDestroyer);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1167,7 +1201,7 @@ namespace TerryMusicMod
         public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
         public override bool Active(Player player)
         {
-            if (MusicUtils.Souls == null)
+            if (MusicUtils.Souls == null || !MusicConfig.Instance.OverrideLifelightTheme)
                 return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss(MusicUtils.Souls.Version >= Version.Parse("1.8") ? "Lifelight" : "LifeChallenger");
             if (npc != null)
@@ -1189,6 +1223,8 @@ namespace TerryMusicMod
 
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverridePlanteraTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.Plantera);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1208,6 +1244,8 @@ namespace TerryMusicMod
         public override string MusicName => "MEGALOVANIA";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideGolemTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.Golem);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1228,6 +1266,8 @@ namespace TerryMusicMod
         public override string MusicName => "BetterCallSaul";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideBetsyTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.DD2Betsy);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1247,6 +1287,8 @@ namespace TerryMusicMod
         public override string MusicName => "CannonBallMythos";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideDukeFishronTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.DukeFishron);
             if (npc != null && npc.active)
             {
@@ -1262,6 +1304,8 @@ namespace TerryMusicMod
         public override string MusicName => "BorderOfLifeResurrectionButterfly";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideEmpressOfLightTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.HallowBoss);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1281,6 +1325,8 @@ namespace TerryMusicMod
         public override string MusicName => "Chokmah232";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideLunaticCultistTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.CultistBoss);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1300,6 +1346,8 @@ namespace TerryMusicMod
         public override string MusicName => "OurOath";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideLunarPillarsTheme)
+                return false;
             if (MusicUtils.AnyPillarsInRange())
             {
                 TerryMusicSystem.nowPlayingString = "Blue Archive ~ Our Oath";
@@ -1314,6 +1362,8 @@ namespace TerryMusicMod
         public override string MusicName => "FuryOfSet";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideMoonLordTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestBoss(NPCID.MoonLordCore);
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1333,6 +1383,8 @@ namespace TerryMusicMod
         public override string MusicName => "StardustSong";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideTimberChampionTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("TimberChampion");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1352,6 +1404,8 @@ namespace TerryMusicMod
         public override string MusicName => "AriaLastBattle";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideTerraChampionTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("TerraChampion");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1371,6 +1425,8 @@ namespace TerryMusicMod
         public override string MusicName => "MasahiroAokiFrostbite";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideNatureChampionTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("NatureChampion");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1390,6 +1446,8 @@ namespace TerryMusicMod
         public override string MusicName => "conciliation";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideLifeChampionTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("LifeChampion");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1409,6 +1467,8 @@ namespace TerryMusicMod
         public override string MusicName => "ProteusRidley3";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideShadowChampionTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("ShadowChampion");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1428,6 +1488,8 @@ namespace TerryMusicMod
         public override string MusicName => "Pompey";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideEarthChampionTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("EarthChampion");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1447,6 +1509,8 @@ namespace TerryMusicMod
         public override string MusicName => "SketchesOfPain";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideSpiritChampionTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("SpiritChampion");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1466,6 +1530,8 @@ namespace TerryMusicMod
         public override string MusicName => "MamoruKunHasBeenCursedWillForce";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideWillChampionTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("WillChampion");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1485,6 +1551,8 @@ namespace TerryMusicMod
         public override string MusicName => "SuddenDeath";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideEridanusTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("CosmosChampion");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1505,6 +1573,8 @@ namespace TerryMusicMod
         public override string MusicName => "Showdown";
         public override bool Active(Player player)
         {
+            if (!MusicConfig.Instance.OverrideAbominationnTheme)
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("AbomBoss");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;
@@ -1526,6 +1596,8 @@ namespace TerryMusicMod
         public override string MusicName => useAltMusic ? "BattleTrialsGlory" : "SupremeRulersCoronationOVERLORD";
         public override bool Active(Player player)
         {
+            if ((MusicUtils.Souls == null) || (!MusicConfig.Instance.OverrideMutantTheme && !useAltMusic))
+                return false;
             NPC npc = MusicUtils.FindClosestSoulsBoss("MutantBoss");
             if (npc != null)
                 timer = MusicConfig.Instance.ImmersiveBossSongs ? MusicEffect.IMMERSIVE_SONG_TIME : 6;

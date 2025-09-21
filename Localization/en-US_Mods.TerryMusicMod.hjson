@@ -2,6 +2,11 @@ Configs: {
 	MusicConfig: {
 		DisplayName: Music Config
 
+		Headers: {
+			VanillaMusicOverrides: Vanilla Music Overrides
+			SoulsMusicOverrides: Souls Music Overrides
+		}
+
 		DreamMusic: {
 			Label: Funny Dream Music
 			Tooltip: ""
@@ -9,11 +14,6 @@ Configs: {
 
 		ItsBrin: {
 			Label: IT'S BRIN
-			Tooltip: ""
-		}
-
-		MutantFtwZzz: {
-			Label: Mutant High Difficulty Alt Music
 			Tooltip: ""
 		}
 
@@ -25,6 +25,206 @@ Configs: {
 		ImmersiveBossSongs: {
 			Label: Immersive Boss Songs
 			Tooltip: Boss songs continue playing shortly after battle ends
+		}
+
+		OverrideTrojanSquirrelTheme: {
+			Label: Override Trojan Squirrel Theme
+			Tooltip: If enabled, plays HoloCure ~ Suspect.
+		}
+
+		OverrideKingSlimeTheme: {
+			Label: Override King Slime Theme
+			Tooltip: If enabled, plays Sakuzyo ~ rePrologue.
+		}
+
+		OverrideEyeOfCthulhuTheme: {
+			Label: Override Eye Of Cthulhu Theme
+			Tooltip: If enabled, plays Paper Mario The Thousand Year Door ~ X-Naut Fortress.
+		}
+
+		OverrideCursedCoffinTheme: {
+			Label: Override Cursed Coffin Theme
+			Tooltip: If enabled, plays Super Mario 64 ~ Shifting Sand Land.
+		}
+
+		OverrideEaterOfWorldsTheme: {
+			Label: Override Eater Of Worlds Theme
+			Tooltip: If enabled, plays DM Dokuro ~ Last Battle (Ballos Mix).
+		}
+
+		OverrideBrainOfCthulhuTheme: {
+			Label: Override Brain Of Cthulhu Theme
+			Tooltip: If enabled, plays Super Metroid ~ Mother Brain.
+		}
+
+		OverrideQueenBeeTheme: {
+			Label: Override Queen Bee Theme
+			Tooltip: If enabled, plays Regnum Caelorum Et Gehenna ~ Verum Cur Non Audimus.
+		}
+
+		OverrideSkeletronTheme: {
+			Label: Override Skeletron Theme
+			Tooltip: If enabled, plays George Thorogood & The Destroyers ~ Bad to the Bone.
+		}
+
+		OverrideDeerclopsTheme: {
+			Label: Override Deerclops Theme
+			Tooltip: If enabled, plays Jujutsu Kaisen ~ No Hesitation (Abridged).
+		}
+
+		OverrideDevianttTheme: {
+			Label: Override Deviantt Theme
+			Tooltip: If enabled, plays Blue Archive ~ Usagi Flap.
+		}
+
+		OverrideWallOfFleshTheme: {
+			Label: Override Wall Of Flesh Theme
+			Tooltip: If enabled, plays Demetori ~ Necrofantasia.
+		}
+
+		OverrideDreadnautilusTheme: {
+			Label: Override Dreadnautilus Theme
+			Tooltip: If enabled, plays Blue Archive ~ Blood Stained Faith.
+		}
+
+		OverrideQueenSlimeTheme: {
+			Label: Override Queen Slime Theme
+			Tooltip: If enabled, plays Dedede's Drum Dash Deluxe ~ C-R-O-W-N-E-D.
+		}
+
+		OverrideBanishedBaronTheme: {
+			Label: Override Banished Baron Theme
+			Tooltip: If enabled, plays BREIS ~ X Vs Zero Decisive Battle 2.
+		}
+
+		OverrideSkeletronPrimeTheme: {
+			Label: Override Skeletron Prime Theme
+			Tooltip: If enabled, plays Blue Archive ~ PACHAD.
+		}
+
+		OverrideTwinsTheme: {
+			Label: Override Twins Theme
+			Tooltip: If enabled, plays Sound Ave ~ Storm Rider.
+		}
+
+		OverrideDestroyerTheme: {
+			Label: Override Destroyer Theme
+			Tooltip: If enabled, plays Diverse System ~ Nightmare Paradise (Abridged).
+		}
+
+		OverrideLifelightTheme: {
+			Label: Override Lifelight Theme
+			Tooltip: If enabled, plays SEQUEL colony ~ Kizuato.
+		}
+
+		OverridePlanteraTheme: {
+			Label: Override Plantera Theme
+			Tooltip: If enabled, plays Magia Record ~ Gekkasakuya.
+		}
+
+		OverrideGolemTheme: {
+			Label: Override Golem Theme
+			Tooltip: If enabled, plays UNDERTALE ~ MEGALOVANIA.
+		}
+
+		OverrideBetsyTheme: {
+			Label: Override Betsy Theme
+			Tooltip: If enabled, plays Better Call Saul ~ Intro.
+		}
+
+		OverrideDukeFishronTheme: {
+			Label: Override Duke Fishron Theme
+			Tooltip: If enabled, plays Megaman Zero ~ Cannon Ball (Mythos).
+		}
+
+		OverrideEmpressOfLightTheme: {
+			Label: Override Empress Of Light Theme
+			Tooltip: If enabled, plays Touhou Perfect Cherry Blossom ~ Border of Life / Resurrection Butterfly.
+		}
+
+		OverrideLunaticCultistTheme: {
+			Label: Override Lunatic Cultist Theme
+			Tooltip: If enabled, plays Blue Archive ~ OST 232 (Chokmah).
+		}
+
+		OverrideLunarPillarsTheme: {
+			Label: Override Lunar Pillars Theme
+			Tooltip: If enabled, plays Blue Archive ~ Our Oath.
+		}
+
+		OverrideMoonLordTheme: {
+			Label: Override Moon Lord Theme
+			Tooltip: If enabled, plays Blue Archive ~ FURY OF SET.
+		}
+
+		OverrideTimberChampionTheme: {
+			Label: Override Timber Champion Theme
+			Tooltip: If enabled, plays HoloCure ~ Stardust Song.
+		}
+
+		OverrideTerraChampionTheme: {
+			Label: Override Terra Champion Theme
+			Tooltip: If enabled, plays Castlevania Aria of Sorrow ~ Last Battle.
+		}
+
+		OverrideNatureChampionTheme: {
+			Label: Override Nature Champion Theme
+			Tooltip: If enabled, plays Masahiro Aoki ~ Frostbite.
+		}
+
+		OverrideLifeChampionTheme: {
+			Label: Override Life Champion Theme
+			Tooltip: If enabled, plays BlazBlue ~ conciliation.
+		}
+
+		OverrideShadowChampionTheme: {
+			Label: Override Shadow Champion Theme
+			Tooltip: If enabled, plays Metroid Samus Returns ~ Proteus Ridley 3.
+		}
+
+		OverrideEarthChampionTheme: {
+			Label: Override Earth Champion Theme
+			Tooltip: If enabled, plays Zenless Zone Zero ~ Pompey.
+		}
+
+		OverrideSpiritChampionTheme: {
+			Label: Override Spirit Champion Theme
+			Tooltip: If enabled, plays The Binding of Isaac ~ Sketches of Pain.
+		}
+
+		OverrideWillChampionTheme: {
+			Label: Override Will Champion Theme
+			Tooltip: If enabled, plays Mamoru-kun Wa Norowarete Shimatta! ~ Will Force.
+		}
+
+		OverrideEridanusTheme: {
+			Label: Override Eridanus Theme
+			Tooltip: If enabled, plays Rabi-Ribi ~ Sudden Death.
+		}
+
+		OverrideAbominationnTheme: {
+			Label: Override Abominationn Theme
+			Tooltip: If enabled, plays Project Wingman ~ Showdown.
+		}
+
+		OverrideMutantTheme: {
+			Label: Override Mutant Theme
+			Tooltip: If enabled, plays Kirby's Return to Dream Land Deluxe ~ Supreme Ruler's Coronation - OVERLORD.
+		}
+
+		MutantFtwZzz: {
+			Label: Mutant High Difficulty Alt Music
+			Tooltip: If enabled, replaces Mutant's theme with Zenless Zone Zero ~ Battle Trials (Glory) in For The Worthy difficulty.
+		}
+
+		ToggleAllVanillaMusicOverrides: {
+			Tooltip: Enabling this will enable all vanilla music overrides
+			Label: Toggle All Vanilla Music Overrides
+		}
+
+		ToggleAllSoulsMusicOverrides: {
+			Tooltip: Enabling this will enable all Souls music overrides
+			Label: Toggle All Souls Music Overrides
 		}
 	}
 
