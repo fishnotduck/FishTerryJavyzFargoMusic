@@ -1,5 +1,5 @@
-displayName = Terry's Fargo Music Mod
-author = Javyz ft. Terry
-version = 1.0.1.11
+displayName = Fish's Terry's Javyz' Fargo's Music Mod
+author = Javyz ft. Terry ft. Fish
+version = 1.0.0
 side = Client
 weakReferences  = FargowiltasSouls@1.7
