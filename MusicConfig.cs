@@ -2,7 +2,7 @@
 using Terraria.ModLoader.Config;
 using Terraria.ModLoader;
 
-namespace TerryMusicMod
+namespace FishMusicMod
 {
     public class MusicConfig : ModConfig
     {
@@ -22,7 +22,7 @@ namespace TerryMusicMod
         [DefaultValue(true)]
         public bool ItsBrin;
 
-        [Header("$Mods.TerryMusicMod.Configs.MusicConfig.Headers.VanillaMusicOverrides")]
+        [Header("$Mods.FishMusicMod.Configs.MusicConfig.Headers.VanillaMusicOverrides")]
 
         [DefaultValue(true)]
         public bool OverrideKingSlimeTheme
@@ -209,7 +209,7 @@ namespace TerryMusicMod
             }
         }
 
-        [Header("$Mods.TerryMusicMod.Configs.MusicConfig.Headers.SoulsMusicOverrides")]
+        [Header("$Mods.FishMusicMod.Configs.MusicConfig.Headers.SoulsMusicOverrides")]
 
         [DefaultValue(true)]
         public bool OverrideTrojanSquirrelTheme
