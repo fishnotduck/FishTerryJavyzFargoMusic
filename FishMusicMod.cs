@@ -1,10 +1,10 @@
 using Terraria.ModLoader;
 
-namespace TerryMusicMod
+namespace FishMusicMod
 {
-	public class TerryMusicMod : Mod
+	public class FishMusicMod : Mod
 	{
-		internal static TerryMusicMod Instance;
+		internal static FishMusicMod Instance;
 		public override void Load()
 		{
 			Instance = this;
