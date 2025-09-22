@@ -2,9 +2,9 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.UI;
-using TerryMusicMod.UI;
+using FishMusicMod.UI;
 
-namespace TerryMusicMod
+namespace FishMusicMod
 {
 	public class TerryMusicSystem : ModSystem
 	{
