@@ -8,7 +8,7 @@ using static Terraria.Main;
 using Microsoft.CodeAnalysis;
 using System;
 
-namespace TerryMusicMod
+namespace FishMusicMod
 {
     static class MusicUtils
     {
@@ -844,7 +844,7 @@ namespace TerryMusicMod
     class TrojanSquirrel : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "HoloCureSuspect";
+        public override string MusicName => "vampiresinvadingheaven";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideTrojanSquirrelTheme)
@@ -856,7 +856,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "HoloCure ~ Suspect";
+                TerryMusicSystem.nowPlayingString = "Everhood - Vampires Invading Heaven";
                 return true;
             }
             return false;
@@ -865,7 +865,7 @@ namespace TerryMusicMod
     class KingSlime : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "rePrologue";
+        public override string MusicName => "dancionbasement";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideKingSlimeTheme)
@@ -877,7 +877,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Sakuzyo ~ rePrologue";
+                TerryMusicSystem.nowPlayingString = "Void Stranger - Dancion Basement";
                 return true;
             }
             return false;
@@ -886,7 +886,7 @@ namespace TerryMusicMod
     class EyeOfCthulhu : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "XNautFortress";
+        public override string MusicName => "timestoppertactics";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideEyeOfCthulhuTheme)
@@ -898,7 +898,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Paper Mario The Thousand Year Door ~ X-Naut Fortress";
+                TerryMusicSystem.nowPlayingString = "corru.observer - Timestopper Tactics";
                 return true;
             }
             return false;
@@ -907,7 +907,7 @@ namespace TerryMusicMod
     class CursedCoffin : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "ShiftingSandLand";
+        public override string MusicName => "guaranteevoid";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideCursedCoffinTheme)
@@ -919,7 +919,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Super Mario 64 ~ Shifting Sand Land";
+                TerryMusicSystem.nowPlayingString = "Void Stranger - Guarantee Void";
                 return true;
             }
             return false;
@@ -928,7 +928,7 @@ namespace TerryMusicMod
     class EaterOfWorlds : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "LastBattleBallosMix";
+        public override string MusicName => "endureeliminate";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideEaterOfWorldsTheme)
@@ -940,7 +940,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "DM Dokuro ~ Last Battle (Ballos Mix)";
+                TerryMusicSystem.nowPlayingString = "corru.observer - Endure, Eliminate";
                 return true;
             }
             return false;
@@ -949,7 +949,7 @@ namespace TerryMusicMod
     class Brain : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "MotherBrain";
+        public override string MusicName => "hostilerewrite";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideBrainOfCthulhuTheme)
@@ -961,7 +961,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Super Metroid ~ Mother Brain";
+                TerryMusicSystem.nowPlayingString = "corru.observer - Hostile Rewrite";
                 return true;
             }
             return false;
@@ -970,7 +970,7 @@ namespace TerryMusicMod
     class QueenBee : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "RegnumCaelorumEtGehennaVerumCurNonAudimus";
+        public override string MusicName => "homedepot";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideQueenBeeTheme)
@@ -982,7 +982,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Regnum Caelorum Et Gehenna ~ Verum Cur Non Audimus";
+                TerryMusicSystem.nowPlayingString = "the home depot song :)";
                 return true;
             }
             return false;
@@ -991,7 +991,7 @@ namespace TerryMusicMod
     class Skeletron : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "BadToTheBone";
+        public override string MusicName => "thefinalbattle";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideSkeletronTheme)
@@ -1003,7 +1003,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "George Thorogood & The Destroyers ~ Bad to the Bone";
+                TerryMusicSystem.nowPlayingString = "Everhood - The Final Battle";
                 return true;
             }
             return false;
@@ -1012,7 +1012,7 @@ namespace TerryMusicMod
     class Deerclops : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "NoHesitation";
+        public override string MusicName => "lostgirl";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideDeerclopsTheme)
@@ -1024,7 +1024,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Jujutsu Kaisen ~ No Hesitation (Abridged)";
+                TerryMusicSystem.nowPlayingString = "deerclops is the knight";
                 return true;
             }
             return false;
@@ -1033,7 +1033,7 @@ namespace TerryMusicMod
     class Devi : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
-        public override string MusicName => "UsagiFlap";
+        public override string MusicName => "connect";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideDevianttTheme)
@@ -1045,7 +1045,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Blue Archive ~ Usagi Flap";
+                TerryMusicSystem.nowPlayingString = "Puella Magi Madoka Magica - Connect";
                 return true;
             }
             return false;
@@ -1054,7 +1054,7 @@ namespace TerryMusicMod
     class WallOfFlesh : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "DemetoriNecrofantasia";
+        public override string MusicName => "ruinousintnt";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideWallOfFleshTheme)
@@ -1066,7 +1066,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Demetori ~ Necrofantasia";
+                TerryMusicSystem.nowPlayingString = "corru.observer - RUINOUS INTNT";
                 return true;
             }
             return false;
@@ -1075,7 +1075,7 @@ namespace TerryMusicMod
     class Dreadnautilus : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "BloodStainedFaith";
+        public override string MusicName => "fnaf2ambience";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideDreadnautilusTheme)
@@ -1087,7 +1087,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Blue Archive ~ Blood Stained Faith";
+                TerryMusicSystem.nowPlayingString = "FNAF 2 Ambience";
                 return true;
             }
             return false;
@@ -1096,7 +1096,7 @@ namespace TerryMusicMod
     class QueenSlime : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "DededeDrumDashDeluxeCROWNED";
+        public override string MusicName => "worldsendvalentine";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideQueenSlimeTheme)
@@ -1108,7 +1108,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Dedede's Drum Dash Deluxe ~ C-R-O-W-N-E-D";
+                TerryMusicSystem.nowPlayingString = "OMORI - World's End Valentine";
                 return true;
             }
             return false;
@@ -1117,7 +1117,7 @@ namespace TerryMusicMod
     class Baron : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "BREISXVsZeroDecisiveBattle2";
+        public override string MusicName => "skyxxxxdays";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideBanishedBaronTheme)
@@ -1129,7 +1129,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "BREIS ~ X Vs Zero Decisive Battle 2";
+                TerryMusicSystem.nowPlayingString = "ZeroRanger - Sky XXXX Days";
                 return true;
             }
             return false;
@@ -1138,7 +1138,7 @@ namespace TerryMusicMod
     class SkeletronPrime : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "PACHAD";
+        public override string MusicName => "daemons";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideSkeletronPrimeTheme)
@@ -1150,7 +1150,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Blue Archive ~ PACHAD";
+                TerryMusicSystem.nowPlayingString = "corru.observer - Daemons";
                 return true;
             }
             return false;
@@ -1159,7 +1159,7 @@ namespace TerryMusicMod
     class Twins : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "SoundAveStormRider";
+        public override string MusicName => "bstrd";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideTwinsTheme)
@@ -1168,7 +1168,7 @@ namespace TerryMusicMod
             NPC spaz = MusicUtils.FindClosestBoss(NPCID.Spazmatism);
             if (reti != null || spaz != null)
             {
-                TerryMusicSystem.nowPlayingString = "Sound Ave ~ Storm Rider";
+                TerryMusicSystem.nowPlayingString = "corru.observer - BSTRD";
                 return true;
             }
             return false;
@@ -1177,7 +1177,7 @@ namespace TerryMusicMod
     class Destroyer : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "DiverseSystemNightmareParadiseAbridged";
+        public override string MusicName => "impact";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideDestroyerTheme)
@@ -1189,7 +1189,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Diverse System ~ Nightmare Paradise (Abridged)";
+                TerryMusicSystem.nowPlayingString = "corru.observer - Impact";
                 return true;
             }
             return false;
@@ -1197,7 +1197,7 @@ namespace TerryMusicMod
     }
     class Lifelight : MusicEffect
     {
-        public override string MusicName => "SEQUELcolonyKizuato";
+        public override string MusicName => "teeheetime";
         public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
         public override bool Active(Player player)
         {
@@ -1210,7 +1210,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "SEQUEL colony ~ Kizuato";
+                TerryMusicSystem.nowPlayingString = "OMORI - Tee-hee Time";
                 return true;
             }
             return false;
@@ -1219,7 +1219,7 @@ namespace TerryMusicMod
     class Plantera : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "Gekkasakuya";
+        public override string MusicName => "feistyflowers";
 
         public override bool Active(Player player)
         {
@@ -1232,7 +1232,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Magia Record ~ Gekkasakuya";
+                TerryMusicSystem.nowPlayingString = "Everhood - Feisty Flowers";
                 return true;
             }
             return false;
@@ -1241,7 +1241,7 @@ namespace TerryMusicMod
     class Golem : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "MEGALOVANIA";
+        public override string MusicName => "affronttogod";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideGolemTheme)
@@ -1253,7 +1253,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "UNDERTALE ~ MEGALOVANIA";
+                TerryMusicSystem.nowPlayingString = "Void Stranger - Affront to God";
                 return true;
             }
             return false;
@@ -1263,7 +1263,7 @@ namespace TerryMusicMod
     class Betsy : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "BetterCallSaul";
+        public override string MusicName => "rushtheme";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideBetsyTheme)
@@ -1275,7 +1275,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Better Call Saul ~ Intro";
+                TerryMusicSystem.nowPlayingString = "The Battle Cats - Rush Theme";
                 return true;
             }
             return false;
@@ -1284,7 +1284,7 @@ namespace TerryMusicMod
     class Fishron : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "CannonBallMythos";
+        public override string MusicName => "skybluedays";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideDukeFishronTheme)
@@ -1292,7 +1292,7 @@ namespace TerryMusicMod
             NPC npc = MusicUtils.FindClosestBoss(NPCID.DukeFishron);
             if (npc != null && npc.active)
             {
-                TerryMusicSystem.nowPlayingString = "Megaman Zero ~ Cannon Ball (Mythos)";
+                TerryMusicSystem.nowPlayingString = "Void Stranger - S** **** ****";
                 return true;
             }
             return false;
@@ -1301,7 +1301,7 @@ namespace TerryMusicMod
     class EmpressofLight : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "BorderOfLifeResurrectionButterfly";
+        public override string MusicName => "magia";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideEmpressOfLightTheme)
@@ -1313,7 +1313,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Touhou Perfect Cherry Blossom ~ Border of Life / Resurrection Butterfly";
+                TerryMusicSystem.nowPlayingString = "Puella Magi Madoka Magica - Magia";
                 return true;
             }
             return false;
@@ -1322,7 +1322,7 @@ namespace TerryMusicMod
     class Cultist : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossLow;
-        public override string MusicName => "Chokmah232";
+        public override string MusicName => "thewallsaretryingtokillme";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideLunaticCultistTheme)
@@ -1334,7 +1334,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Blue Archive ~ OST 232 (Chokmah)";
+                TerryMusicSystem.nowPlayingString = "corru.observer - The Walls Are Trying To Kill Me";
                 return true;
             }
             return false;
@@ -1343,14 +1343,14 @@ namespace TerryMusicMod
     class Pillars : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "OurOath";
+        public override string MusicName => "spatialstrategics";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideLunarPillarsTheme)
                 return false;
             if (MusicUtils.AnyPillarsInRange())
             {
-                TerryMusicSystem.nowPlayingString = "Blue Archive ~ Our Oath";
+                TerryMusicSystem.nowPlayingString = "corru.observer - Spatial Strategics";
                 return true;
             }
             return false;
@@ -1359,7 +1359,7 @@ namespace TerryMusicMod
     class MoonLord : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
-        public override string MusicName => "FuryOfSet";
+        public override string MusicName => "castyourselfaside";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideMoonLordTheme)
@@ -1371,7 +1371,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Blue Archive ~ FURY OF SET";
+                TerryMusicSystem.nowPlayingString = "corru.observer - Cast Yourself Aside";
                 return true;
             }
             return false;
@@ -1380,7 +1380,7 @@ namespace TerryMusicMod
     class TimberChampion : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "StardustSong";
+        public override string MusicName => "timber";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideTimberChampionTheme)
@@ -1392,7 +1392,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "HoloCure ~ Stardust Song";
+                TerryMusicSystem.nowPlayingString = "Pitbull feat. Ke$ha - Timber";
                 return true;
             }
             return false;
@@ -1401,7 +1401,7 @@ namespace TerryMusicMod
     class TerraChampion : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "AriaLastBattle";
+        public override string MusicName => "chinesemanbangingrockstogether";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideTerraChampionTheme)
@@ -1413,7 +1413,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Castlevania Aria of Sorrow ~ Last Battle";
+                TerryMusicSystem.nowPlayingString = "Chinese man banging rocks together";
                 return true;
             }
             return false;
@@ -1422,7 +1422,7 @@ namespace TerryMusicMod
     class NatureChampion : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "MasahiroAokiFrostbite";
+        public override string MusicName => "dad3";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideNatureChampionTheme)
@@ -1434,7 +1434,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Masahiro Aoki ~ Frostbite";
+                TerryMusicSystem.nowPlayingString = "SimpleFlips - Dad 3";
                 return true;
             }
             return false;
@@ -1443,7 +1443,7 @@ namespace TerryMusicMod
     class LifeChampion : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "conciliation";
+        public override string MusicName => "rectangular";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideLifeChampionTheme)
@@ -1455,7 +1455,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "BlazBlue ~ conciliation";
+                TerryMusicSystem.nowPlayingString = "Sean Stephens - Rectangular";
                 return true;
             }
             return false;
@@ -1464,7 +1464,7 @@ namespace TerryMusicMod
     class ShadowChampion : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "ProteusRidley3";
+        public override string MusicName => "thecircle";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideShadowChampionTheme)
@@ -1476,7 +1476,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Metroid Samus Returns ~ Proteus Ridley 3";
+                TerryMusicSystem.nowPlayingString = "XTRATUNA - THE CIRCLE";
                 return true;
             }
             return false;
@@ -1485,7 +1485,7 @@ namespace TerryMusicMod
     class EarthChampion : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "Pompey";
+        public override string MusicName => "anunderstale";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideEarthChampionTheme)
@@ -1497,7 +1497,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Zenless Zone Zero ~ Pompey";
+                TerryMusicSystem.nowPlayingString = "XTRATUNA - AN UNDER'S TALE (Chorus Only)";
                 return true;
             }
             return false;
@@ -1506,7 +1506,7 @@ namespace TerryMusicMod
     class SpiritChampion : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "SketchesOfPain";
+        public override string MusicName => "curseofarmoredparhoah";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideSpiritChampionTheme)
@@ -1518,7 +1518,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "The Binding of Isaac ~ Sketches of Pain";
+                TerryMusicSystem.nowPlayingString = "Keuperz - Curse of armored parhoah";
                 return true;
             }
             return false;
@@ -1527,7 +1527,7 @@ namespace TerryMusicMod
     class WillChampion : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
-        public override string MusicName => "MamoruKunHasBeenCursedWillForce";
+        public override string MusicName => "itsbeensolong";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideWillChampionTheme)
@@ -1539,7 +1539,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Mamoru-kun Wa Norowarete Shimatta! ~ Will Force";
+                TerryMusicSystem.nowPlayingString = "The Living Tombstone - It's Been So Long";
                 return true;
             }
             return false;
@@ -1548,7 +1548,7 @@ namespace TerryMusicMod
     class Eridanus : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
-        public override string MusicName => "SuddenDeath";
+        public override string MusicName => "thefalserulerofallheavens";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideEridanusTheme)
@@ -1560,7 +1560,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Rabi-Ribi ~ Sudden Death";
+                TerryMusicSystem.nowPlayingString = "Void Stranger - The False Ruler of All Heavens";
                 return true;
             }
             return false;
@@ -1570,7 +1570,7 @@ namespace TerryMusicMod
     class Abom : MusicEffect
     {
         public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
-        public override string MusicName => "Showdown";
+        public override string MusicName => "yourcontracthasexpired";
         public override bool Active(Player player)
         {
             if (!MusicConfig.Instance.OverrideAbominationnTheme)
@@ -1582,7 +1582,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = "Project Wingman ~ Showdown";
+                TerryMusicSystem.nowPlayingString = "A Hat In Time - Your Contract Has Expired";
                 return true;
             }
             return false;
@@ -1593,7 +1593,7 @@ namespace TerryMusicMod
         public override SceneEffectPriority Priority => (SceneEffectPriority)9;
         private bool useAltMusic => MusicConfig.Instance.MutantFtwZzz && 
             (MusicUtils.Souls.Version >= Version.Parse("1.8") ? (bool)MusicUtils.Souls.Call("MasochistMode") : Main.getGoodWorld);
-        public override string MusicName => useAltMusic ? "BattleTrialsGlory" : "SupremeRulersCoronationOVERLORD";
+        public override string MusicName => useAltMusic ? "revenge" : "voidthesky";
         public override bool Active(Player player)
         {
             if ((MusicUtils.Souls == null) || (!MusicConfig.Instance.OverrideMutantTheme && !useAltMusic))
@@ -1605,7 +1605,7 @@ namespace TerryMusicMod
             {
                 if (!MusicConfig.Instance.ImmersiveBossSongs || (npc == null && !(Main.LocalPlayer.active && Main.LocalPlayer.dead)))
                     timer--;
-                TerryMusicSystem.nowPlayingString = useAltMusic ? "Zenless Zone Zero ~ Battle Trials (Glory)" : "Kirby's Return to Dream Land Deluxe ~ Supreme Ruler's Coronation - OVERLORD";
+                TerryMusicSystem.nowPlayingString = useAltMusic ? "Everhood - Revenge" : "Void Stranger - Void the Sky";
                 return true;
             }
             return false;
